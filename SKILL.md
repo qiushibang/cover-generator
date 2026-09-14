@@ -1,9 +1,9 @@
 ---
-name: dynamic-cover-studio
+name: cover-generator
 description: This skill should be used when creating or revising a 3:4 Chinese social-media cover from a user's personal photo and either manual copy, an uploaded document, or the current work directory. It first presents six bundled reference templates for selection, then creates a diagonally dynamic, non-boxy Chinese cover that faithfully follows the selected template.
 ---
 
-# Dynamic Cover Studio
+# Cover Generator
 
 Create a finished 3:4 Chinese social-media cover from one bundled template, the user's personal portrait, and a content source. Keep the selected template's distinctive visual system while applying the mandatory shared diagonal-motion treatment defined below.
 

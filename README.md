@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/repository-cover.png" alt="Dynamic Cover Studio repository cover" width="100%" />
+  <img src="assets/repository-cover.png" alt="Cover Generator repository cover" width="100%" />
 </p>
 
-# Dynamic Cover Studio
+# Cover Generator｜封面生成
 
 一个面向中文社交媒体的 Codex 封面生成技能。它可以从手动文案、上传文档或当前项目目录中提炼内容，再结合用户个人照片和六种内置模板，生成具有斜向动势的 3:4 图文封面。
 
@@ -37,10 +37,10 @@
 将仓库直接克隆到 Codex 全局技能目录：
 
 ```bash
-git clone https://github.com/qiushibang/dynamic-cover-studio.git ~/.codex/skills/dynamic-cover-studio
+git clone https://github.com/qiushibang/cover-generator.git ~/.codex/skills/cover-generator
 ```
 
-也可以下载仓库中的 `dynamic-cover-studio.zip`，解压到 `~/.codex/skills/`。
+也可以下载仓库中的 `cover-generator.zip`，解压到 `~/.codex/skills/`。
 
 ## 使用方式
 
@@ -55,13 +55,13 @@ git clone https://github.com/qiushibang/dynamic-cover-studio.git ~/.codex/skills
 示例：
 
 ```text
-请使用 Dynamic Cover Studio，根据我上传的项目说明和个人照片制作封面。
+请使用 Cover Generator，根据我上传的项目说明和个人照片制作封面。
 ```
 
 ## 目录结构
 
 ```text
-dynamic-cover-studio/
+cover-generator/
 ├── SKILL.md
 ├── README.md
 ├── assets/
