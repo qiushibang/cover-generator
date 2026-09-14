@@ -2,6 +2,8 @@
 
 Treat the six files in `assets/templates/` as fixed visual-template references. Retain the selected template's structure, visual density, and distinct style. Change only the topic copy, non-branded supporting icons, and the user-supplied person.
 
+All bundled references are synthetic and faceless by design. Their illustrated figures define only presenter placement, scale, pose, and overlap; they are not identity references. Keep the distributed template assets free of real-person photography, identifiable faces, logos, and watermarks.
+
 ## 01 Classroom checklist
 
 File: `assets/templates/01-classroom-checklist.png`
@@ -71,4 +73,5 @@ File: `assets/templates/06-neon-self-media-board.png`
 - Use expressive oblique or slightly handwritten/italic display lettering for headline text. Avoid rigid upright square title blocks while keeping Chinese clear at thumbnail size.
 - Keep the supplied user copy accurate; use short copy that fits the template rather than shrinking it into illegibility.
 - Preserve person identity only from the user-provided photograph. Never replicate a person visible in a template asset.
+- Treat every faceless illustrated template figure as a layout placeholder and replace it only with the user-provided portrait in a final generated cover.
 - Exclude original template text, source-account identifiers, platform watermarks, and third-party logos unless the user separately supplies and authorizes them.

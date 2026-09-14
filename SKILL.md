@@ -11,6 +11,8 @@ Create a finished 3:4 Chinese social-media cover from one bundled template, the 
 
 Show the complete six-template gallery before asking the user to choose a template. Open and render all six images in `assets/templates/` inline in one response; place the template number and a short use case next to each image.
 
+The bundled gallery assets are synthetic, faceless illustrations. Keep the installed template gallery free of real-person photography, identifiable faces, third-party logos, and watermarks. A real person may appear only in a newly generated final cover when the user has supplied that portrait for the task.
+
 | Template | File | Use for |
 | --- | --- | --- |
 | 01 | `01-classroom-checklist.png` | tutoring, courses, learning plans, and structured benefits |
@@ -54,7 +56,7 @@ Read `references/template-guide.md` and inspect the selected template before wri
 2. Create the copy automatically from the selected source. Use every visible line verbatim in the generation prompt. When manual copy is too long, offer a shortened version before generation; when document/directory content is too long, condense it without changing facts.
 3. Use the built-in image-generation tool. Supply the selected template as the layout/style reference and the supplied portrait as the identity reference. Generate a new cover rather than editing the template asset.
 4. State every selected-template invariant and every mandatory diagonal-motion requirement in the prompt: 3:4 canvas, slanted background, oblique non-boxy headline, diagonal card axes, text placement, portrait scale/position, palette, and decorations.
-5. State that the only replaceable elements are the source-derived text, permitted generic icons, and the supplied person. Preserve no source-template wording, creator identity, logo, or watermark.
+5. State that the only replaceable elements are the source-derived text, permitted generic icons, and the supplied person. Treat the faceless template figure as a position and scale guide only. Preserve no source-template wording, creator identity, logo, or watermark.
 6. Inspect the result at full size and thumbnail size. Regenerate with one focused correction when template fidelity, diagonal composition, Chinese legibility, portrait likeness, or factual accuracy fails.
 
 ## Revision Rules
