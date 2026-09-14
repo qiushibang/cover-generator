@@ -34,7 +34,16 @@
 
 ## 安装
 
-将仓库直接克隆到 Codex 全局技能目录：
+把下面这段完整复制给 Codex 或其他支持 Skill 的 Agent：
+
+```text
+请安装下面这个 Cover Generator Skill，并全局安装到 ~/.codex/skills/cover-generator。
+安装完成后请检查 SKILL.md、references 文件和 6 张模板图片是否完整，并告诉我校验结果。
+
+https://github.com/qiushibang/cover-generator
+```
+
+也可以手动克隆到 Codex 全局技能目录：
 
 ```bash
 git clone https://github.com/qiushibang/cover-generator.git ~/.codex/skills/cover-generator
