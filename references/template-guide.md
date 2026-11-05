@@ -9,7 +9,7 @@ All bundled references are synthetic and faceless by design. Their illustrated f
 File: `assets/templates/01-classroom-checklist.png`
 
 - Keep a softly blurred classroom setting with a green-blackboard center and warm beige foreground.
-- Keep the large top stack of tilted rectangular title strips: cobalt blue, yellow, then white; use a bold cobalt Chinese headline on the white strip.
+- Keep the large top stack of tilted rectangular title strips: cobalt blue, yellow, then white; use a bold cobalt headline on the white strip.
 - Keep a small yellow expressive doodle icon near the left title area.
 - Keep the presenter as a large right-side upper-body cutout with a thick, clean white outline. Use a classroom-appropriate object only when the supplied photo or topic supports it.
 - Keep three or four left-aligned white pill checklist rows with cobalt check icons.
@@ -68,9 +68,9 @@ File: `assets/templates/06-neon-self-media-board.png`
 
 ## Global constraints
 
-- Keep the output 3:4 vertical and optimize it for short-video cover visibility.
+- Keep the output 3:4 vertical and optimize it for thumbnail readability.
 - Apply the shared diagonal-motion overlay from `SKILL.md`: use a 6–12 degree diagonal background axis, a 4–9 degree oblique headline group, and related slanted highlight/card axes. Keep the canvas upright; do not rotate the whole finished image.
-- Use expressive oblique or slightly handwritten/italic display lettering for headline text. Avoid rigid upright square title blocks while keeping Chinese clear at thumbnail size.
+- Use expressive oblique or slightly handwritten/italic display lettering for headline text. Avoid rigid upright square title blocks while keeping the requested text clear at thumbnail size.
 - Keep the supplied user copy accurate; use short copy that fits the template rather than shrinking it into illegibility.
 - Preserve person identity only from the user-provided photograph. Never replicate a person visible in a template asset.
 - Treat every faceless illustrated template figure as a layout placeholder and replace it only with the user-provided portrait in a final generated cover.

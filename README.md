@@ -1,16 +1,25 @@
-<p align="center"><img src="assets/repository-cover.png" width="100%" alt="Cover Generator · 把文档做成封面"></p>
+<p align="center"><img src="assets/repository-cover.png" width="100%" alt="Cover Studio 封面工坊，展示高对比、产品卡片和手账三种内置版式"></p>
 
-<h1 align="center">中文社交媒体封面生成器</h1>
+<h1 align="center">封面工坊 · Cover Studio</h1>
 
-<p align="center">把文案、文档或项目说明交给 Codex。选一种版式，配上你的照片，生成一张 3:4 竖版封面。</p>
+<p align="center"><strong>把课程讲义、项目说明或创作脚本，做成一张 3:4 图文封面。</strong><br>
+A cover design skill for courses, projects and creators.</p>
 
-<p align="center">
-  <a href="#安装"><strong>安装到 Codex ↓</strong></a>　·　<a href="#六种模板">浏览模板画廊</a>　·　<a href="#使用方式">做第一张封面</a>
-</p>
+<p align="center"><a href="#六种模板"><strong>浏览六种版式</strong></a>　·　<a href="#安装">复制安装指令</a>　·　<a href="#使用方式">制作第一张封面</a></p>
+
+## 你想为哪份内容做封面？
+
+| 准备发布 | 交给 Codex | 适合的版式 |
+| :--- | :--- | :--- |
+| 一期视频或专栏 | 脚本里最想让读者记住的观点 | **02 暗底高对比**，用一个大标题抓住重点 |
+| 一堂课或一场分享 | 讲义、讲者照片，以及听众能学到什么 | **01 课堂清单**，把学习要点排在人物旁边 |
+| 一个项目或产品 | 项目目录中的 README，或一份产品介绍 | **04 产品演示**，给功能说明留下完整的卡片区域 |
+
+每次制作都用你提供的照片。六张内置参考图决定版式与配色，封面文字取自你的材料；需要换一种语言时，在请求里写明即可。
 
 ## 安装
 
-**复制给你的 Agent**，让它完成全局安装和检查。
+封面工坊在 Codex 中的调用名是 `$cover-generator`。把下面这段话复制给 Agent 即可安装。
 
 ```text
 请从 https://github.com/qiushibang/cover-generator 全局安装 cover-generator 到 Codex。
@@ -30,7 +39,7 @@ git clone https://github.com/qiushibang/cover-generator.git ~/.codex/skills/cove
 
 ## 六种模板
 
-按你要讲的内容选版式。点击预览可看原图，生成时告诉 Codex 对应编号即可。
+点击图片可查看原尺寸模板。调用技能时，Codex 会先展示全部六张，让你选定编号再生成。
 
 ### 讲课程与方法
 
@@ -61,11 +70,11 @@ git clone https://github.com/qiushibang/cover-generator.git ~/.codex/skills/cove
 
 ## 使用方式
 
-安装后新开一次 Codex 对话，附上一张清晰的个人照片。下面以一份工具教程为例。
+安装后新开一次 Codex 对话，附上一张清晰的个人照片和内容素材。例如，要给一场工作坊做封面，可以这样说。
 
 ```text
-用 $cover-generator 给我上传的工具教程做一张封面。
-先展示六种模板给我选，再从文档里提炼标题和两个操作要点，用我附的照片排版。
+用 $cover-generator 给这场工作坊做一张竖版封面。附件是活动简介和我的讲者照片。
+先展示六种模板给我选，再从简介里提炼标题和两个学习要点。这次请用西班牙语。
 ```
 
 | 你手头的素材 | 可以怎样告诉 Codex |

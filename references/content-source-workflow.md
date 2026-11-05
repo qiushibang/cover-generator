@@ -14,10 +14,12 @@ Extract five fields in this order:
 
 Turn the first four fields into a compact cover-copy draft:
 
-- Topic pill: 2–6 Chinese characters.
-- Headline: one or two lines, normally 8–18 Chinese characters total; make the first line an attention hook and the second line the specific value.
+- Topic pill: a compact subject label.
+- Headline: the specific takeaway in one or two lines.
 - Subtitle: one short supported explanation, optional.
-- Card labels: two or three concrete source-derived points, normally 4–10 Chinese characters each.
+- Card labels: two or three source-derived points.
+
+Fit the copy to the available space in the output language. Preserve the reading order and keep words or grapheme clusters intact.
 
 Prefer a verified workflow or tangible feature over marketing promises. Remove private paths, personal data, credentials, internal identifiers, and long quotations.
 
