@@ -1,79 +1,84 @@
+<p align="center"><img src="assets/repository-cover.png" width="100%" alt="Cover Generator · 把文档做成封面"></p>
+
+<h1 align="center">中文社交媒体封面生成器</h1>
+
+<p align="center">把文案、文档或项目说明交给 Codex。选一种版式，配上你的照片，生成一张 3:4 竖版封面。</p>
+
 <p align="center">
-  <img src="assets/repository-cover.png" alt="Cover Generator · 把文档做成封面。一页稿纸翻折成朱红色海报。" width="100%" />
+  <a href="#安装"><strong>安装到 Codex ↓</strong></a>　·　<a href="#六种模板">浏览模板画廊</a>　·　<a href="#使用方式">做第一张封面</a>
 </p>
-
-# Cover Generator｜封面生成
-
-给 Codex 一份文档、一段文案或一个项目目录，再选一个模板、提供一张个人照片。Cover Generator 会提炼标题和要点，排成一张 **3:4 中文社交媒体封面**。
-
-**[复制给 Agent 安装](#安装)**　·　[浏览六种模板](#六种模板)　·　[查看用法](#使用方式)
-
-## 六种模板
-
-<table>
-  <tr>
-    <td align="center"><img src="assets/templates/01-classroom-checklist.png" width="220" /><br/><b>01 课堂清单</b></td>
-    <td align="center"><img src="assets/templates/02-dark-high-contrast.png" width="220" /><br/><b>02 暗底高对比</b></td>
-    <td align="center"><img src="assets/templates/03-light-tech-code-card.png" width="220" /><br/><b>03 浅色技术卡片</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/templates/04-light-tech-product-card.png" width="220" /><br/><b>04 产品演示卡片</b></td>
-    <td align="center"><img src="assets/templates/05-notebook-callouts.png" width="220" /><br/><b>05 手账标注</b></td>
-    <td align="center"><img src="assets/templates/06-neon-self-media-board.png" width="220" /><br/><b>06 荧光信息板</b></td>
-  </tr>
-</table>
-
-六张内置模板均为重新绘制的合成示意图，不含真人照片、可识别人脸或第三方品牌标志。模板图片只用于构图与风格参考；只有在生成最终封面时，才使用用户主动提供并授权处理的个人照片。生成结果不得复制模板文字、账号标识、水印或未经授权的品牌标志。
 
 ## 安装
 
-把下面这段完整复制给 Codex 或其他支持 Skill 的 Agent：
+**复制给你的 Agent**，让它完成全局安装和检查。
 
 ```text
-请安装下面这个 Cover Generator Skill，并全局安装到 ~/.codex/skills/cover-generator。
-安装完成后请检查 SKILL.md、references 文件和 6 张模板图片是否完整，并告诉我校验结果。
-
-https://github.com/qiushibang/cover-generator
+请从 https://github.com/qiushibang/cover-generator 全局安装 cover-generator 到 Codex。
+请检查 SKILL.md、references 和六张模板图片是否齐全，然后告诉我如何开始使用。
 ```
 
-也可以手动克隆到 Codex 全局技能目录：
+<details>
+<summary>手动安装或下载 ZIP</summary>
 
 ```bash
 git clone https://github.com/qiushibang/cover-generator.git ~/.codex/skills/cover-generator
 ```
 
-也可以下载仓库中的 `cover-generator.zip`，解压到 `~/.codex/skills/`。
+也可以[下载安装包](https://github.com/qiushibang/cover-generator/raw/refs/heads/main/cover-generator.zip)，解压到 `~/.codex/skills/`。
+
+</details>
+
+## 六种模板
+
+按你要讲的内容选版式。点击预览可看原图，生成时告诉 Codex 对应编号即可。
+
+### 讲课程与方法
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="assets/templates/01-classroom-checklist.png"><img src="assets/gallery/01-classroom-checklist.jpg" width="380" alt="课堂清单模板预览"></a><br><strong>01 · 课堂清单</strong><br>把课程收益拆成几条清单</td>
+<td width="50%" valign="top"><a href="assets/templates/05-notebook-callouts.png"><img src="assets/gallery/05-notebook-callouts.jpg" width="380" alt="手账标注模板预览"></a><br><strong>05 · 手账标注</strong><br>用批注讲清一个方法</td>
+</tr>
+</table>
+
+### 演示工具与产品
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="assets/templates/03-light-tech-code-card.png"><img src="assets/gallery/03-light-tech-code-card.jpg" width="380" alt="技术步骤模板预览"></a><br><strong>03 · 技术步骤</strong><br>并排展示参数与操作步骤</td>
+<td width="50%" valign="top"><a href="assets/templates/04-light-tech-product-card.png"><img src="assets/gallery/04-light-tech-product-card.jpg" width="380" alt="产品演示模板预览"></a><br><strong>04 · 产品演示</strong><br>给界面与工作流留出大幅画面</td>
+</tr>
+</table>
+
+### 做短视频与创作教程
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="assets/templates/02-dark-high-contrast.png"><img src="assets/gallery/02-dark-high-contrast.jpg" width="380" alt="暗底高对比模板预览"></a><br><strong>02 · 暗底高对比</strong><br>用大标题突出一个结论</td>
+<td width="50%" valign="top"><a href="assets/templates/06-neon-self-media-board.png"><img src="assets/gallery/06-neon-self-media-board.jpg" width="380" alt="荧光信息板模板预览"></a><br><strong>06 · 荧光信息板</strong><br>把多个功能排成流程图</td>
+</tr>
+</table>
 
 ## 使用方式
 
-安装后新建一次对话，并描述需要制作中文社交媒体封面。技能会依次：
-
-1. 展示全部六种模板。
-2. 让用户选择模板，并收集个人照片。
-3. 从手动文案、上传文档或当前目录中获得内容。
-4. 自动生成封面文案并制作图片。
-5. 检查文字准确性、人物识别度和斜向视觉效果。
-
-示例：
+安装后新开一次 Codex 对话，附上一张清晰的个人照片。下面以一份工具教程为例。
 
 ```text
-请使用 Cover Generator，根据我上传的项目说明和个人照片制作封面。
+用 $cover-generator 给我上传的工具教程做一张封面。
+先展示六种模板给我选，再从文档里提炼标题和两个操作要点，用我附的照片排版。
 ```
 
-## 目录结构
+| 你手头的素材 | 可以怎样告诉 Codex |
+| :--- | :--- |
+| 已写好的标题和要点 | “保留我的标题，把三个要点排成课堂清单。” |
+| 课程讲义或产品文档 | “从附件里找出读者能学会的两件事，写到封面上。” |
+| 当前项目目录 | “根据这个项目的 README，提炼一句用途和两个已实现的功能。” |
 
-```text
-cover-generator/
-├── SKILL.md
-├── README.md
-├── assets/
-│   ├── repository-cover.png
-│   └── templates/
-└── references/
-    ├── content-source-workflow.md
-    └── template-guide.md
-```
+<details>
+<summary>照片、内容来源与生成规则</summary>
 
-## 内容与隐私边界
+六张模板采用合成插画。制作个人封面时，技能以你主动提供的照片作为人物参考。处理项目目录时，优先读取 README、项目文档和配置，并默认跳过密钥、缓存和构建产物。
 
-读取当前工作目录时，技能优先使用 README、项目文档和项目配置；默认排除环境变量、密钥、令牌、依赖目录、构建产物、缓存与数据库导出。封面文案必须来自可核验的输入内容，不得虚构效果、指标或产品能力。
+[查看模板排版规则](references/template-guide.md) · [查看文案提炼规则](references/content-source-workflow.md)
+
+</details>
