@@ -1,6 +1,6 @@
-<p align="center"><img src="assets/repository-cover.png" width="100%" alt="Cover Studio 封面工坊，展示高对比、产品卡片和手账三种内置版式"></p>
+<p align="center"><img src="assets/repository-cover.png" width="100%" alt="cover-generator，展示高对比、产品卡片和手账三种内置版式"></p>
 
-<h1 align="center">封面工坊 · Cover Studio</h1>
+<h1 align="center">cover-generator</h1>
 
 <p align="center"><strong>把课程讲义、项目说明或创作脚本，做成一张 3:4 图文封面。</strong><br>
 A cover design skill for courses, projects and creators.</p>
@@ -19,7 +19,7 @@ A cover design skill for courses, projects and creators.</p>
 
 ## 安装
 
-封面工坊在 Codex 中的调用名是 `$cover-generator`。把下面这段话复制给 Agent 即可安装。
+在 Codex 中使用 `$cover-generator` 调用。把下面这段话复制给 Agent 即可安装。
 
 ```text
 请从 https://github.com/qiushibang/cover-generator 全局安装 cover-generator 到 Codex。

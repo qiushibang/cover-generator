@@ -3,7 +3,7 @@ name: cover-generator
 description: Design a 3:4 illustrated portrait cover for a course, project, talk, article or creator video from supplied copy, a document or a project directory. Offer six templates and set the cover in the requested language.
 ---
 
-# Cover Studio · 封面工坊
+# cover-generator
 
 Create a finished 3:4 editorial cover from one bundled template, the user's personal portrait, and a content source. Keep the selected template's distinctive visual system while applying the mandatory shared diagonal-motion treatment defined below.
 
